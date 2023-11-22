@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+@media only screen and (max-width: 767px) {
+  .app-container {
+    padding: 4px;
+  }
+  .apps-list {
+    min-width: 90%;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .input-ele {
+    min-height: 5px;
+    min-width: 10px;
+  }
+  .search-image {
+    height: 4px;
+    width: 4px;
+  }
+  
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
+.search-input-holder {
+  height: 60px;
+  width: 650px;
+  padding: 10px;
+  background-color: #fff1eb;
+  border-color: #7b8794;
+  border-width: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.search-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 0px;
+}
+.input-search {
+  height: 60px;
+  width: 450px;
+  font-size: 25px;
+  border-width: 0px;
+  background-color: #fff1eb;
+}
+.input-ele {
+  height: 60px;
+  width: 450px;
+}
+.tab-items-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.apps-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
